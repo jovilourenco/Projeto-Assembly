@@ -16,7 +16,7 @@ Neste projeto, o programa funciona da seguinte forma:
 - Recebe um valor de altura;
 - Recebe um nome para um arquivo de saída (aplicando .bmp no fim).
 
-Após receber estas entradas, o programa lê o arquivo de entrada (linha por linha) e escreve no arquivo de saída. Contudo, no arquivo de saída, os pixels de Y até Y+altura e de X até X+largura serão modificados para 0, criando um tipo de "censura" no arquivo de saída. Ou seja, o programa deve iniciar a leitura de linhas e, quando chegar na linha Y, deve chamar uma função para realizar a censura.
+Após receber estas entradas, o programa lê o arquivo de entrada (linha por linha) e escreve no arquivo de saída. Contudo, no arquivo de saída, os pixels de Y até Y+altura-1 e de X até X+largura-1 serão modificados para 0, criando um tipo de "censura" no arquivo de saída. Ou seja, o programa deve iniciar a leitura de linhas e, quando chegar na linha Y, deve chamar uma função para realizar a censura.
 
 ### OBS:
 - Deve haver a tratativa correta de bytes, pixels;
