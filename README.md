@@ -1,4 +1,4 @@
-# project-assembly
+# project: assembly
 Universidade Federal da Paraíba - UFPB
 Centro de Informática
 João Victor Lourenço da Silva (20220005997)
